@@ -1,5 +1,9 @@
 # Changelog for `i18n-build`
 
+## v0.7.0
+
++ Update to `i18n-embed` version `0.12`.
+
 ## v0.6.1
 
 ### New Features
@@ -8,7 +12,7 @@
 
 ## v0.6.0
 
-+ Update `i18n-embed` to version `0.11`.
++ Update to `i18n-embed` version `0.11`.
 
 ### Internal Changes
 
