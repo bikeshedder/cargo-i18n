@@ -217,8 +217,7 @@ impl FluentLanguageLoader {
         config_lock
             .language_bundles
             .iter()
-            .filter_map(|language_bundle| language_bundle.bundle.get_message(message_id))
-            .next()
+            .find_map(|language_bundle| language_bundle.bundle.get_message(message_id))
             .map(closure)
     }
 
